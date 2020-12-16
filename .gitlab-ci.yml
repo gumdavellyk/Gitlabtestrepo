@@ -1,0 +1,144 @@
+#sfam test pipeline script with Delta deployment
+default:
+  image: jfgarcia268/sfdx_vlocity_java:latest
+
+stages:
+  - test
+  - Validatedeploy
+  - deploy
+  - vlocity_deploy
+
+
+#Job stages
+feature_validation:
+  stage: test
+  only:
+    - /^feature.*/
+  when: manual
+  script:
+    - echo ${SFDX_URL_SIT} > env.sfdx
+    - sfdx force:auth:sfdxurl:store -s -a SIT -f env.sfdx
+    - rm -rf env.sfdx
+    - key_suffix=$(echo $CI_COMMIT_REF_NAME | cut -f2 -d'/')
+    - update_hash=$(git merge-base HEAD origin/develop)
+    - echo $update_hash
+    - key_name=$(echo VBTDeployKey$key_suffix)
+    - echo $key_name
+    - echo export key_name=$key_name > set_variables.sh
+    - sfdx force:data:record:create -s vlocity_ins__GeneralSettings__c  -v "Name='$key_name' vlocity_ins__Value__c='$update_hash'" -u SIT
+    - sfdx vlocityestools:sfsource:createdeltapackage -u SIT -p cmt -d force-app --gitcheckkey $key_suffix
+    - |
+      if [ -d "force-app_delta" ]; then
+         sfdx force:source:deploy -c  --sourcepath force-app_delta --targetusername SIT 
+      else
+            echo "No SF changes found"
+      fi
+  artifacts:
+    paths:
+      - set_variables.sh
+  after_script:
+    - source ./set_variables.sh
+    - echo ${SFDX_URL_SIT} > env.sfdx
+    - sfdx force:auth:sfdxurl:store -s -a SIT -f env.sfdx
+    - sfdx force:data:record:delete -s vlocity_ins__GeneralSettings__c -w "Name='$key_name'" -u SIT
+
+.deploy-template:
+  stage: deploy
+  script:
+    - echo ${deploy_url}
+    - echo $SF_USER
+    - echo ${deploy_url} > env.sfdx
+    - sfdx force:auth:sfdxurl:store -d -a ${SF_USER} -f env.sfdx
+    - sfdx vlocityestools:sfsource:createdeltapackage -u ${SF_USER} -p ins -d force-app
+    - |
+      if [ -d "force-app_delta" ]; then
+
+         sfdx force:source:deploy --sourcepath force-app_delta --targetusername ${SF_USER} --verbose
+      else
+            echo "No SF changes found"
+      fi
+    - echo "Deploying the Vlocity components"
+    - vlocity -sfdx.username ${SF_USER} -job deploy.yaml packDeploy --verbose true --simpleLogging true
+#  tags:
+#    - docker
+  artifacts:
+    when: always
+    paths:
+      - vlocity-temp/logs
+      - force-app_delta
+
+deploy-SIT:
+  extends: .deploy-template
+  variables:
+    SF_USER: "sfam_sit2"
+    deploy_url: $SFDX_URL_SIT
+  only:
+    refs:
+      - develop
+  allow_failure: false
+
+deploy-UAT:
+  extends: .deploy-template
+  variables:
+    SF_USER: "sfam_uat"
+    deploy_url: $SFDX_URL_UAT
+  only:
+    refs:
+      - release
+  when: manual
+  allow_failure: false
+
+PROD_Validate:
+    stage: validatedeploy
+    only:
+      refs:
+           - master
+    when: manual
+    script:
+        - echo ${SFDX_URL_PROD} > env.sfdx
+        - sfdx force:auth:sfdxurl:store -s -a PROD -f env.sfdx
+        - rm -rf env.sfdx
+        - sfdx vlocityestools:sfsource:createdeltapackage -u PROD -p cmt -d salesforce_sfdx
+        - |
+          if [ -d "salesforce_sfdx_delta" ]; then 
+             sfdx force:source:deploy --sourcepath salesforce_sfdx_delta --targetusername PROD  --checkonly --testlevel RunLocalTests --wait 100
+             sfdx force:source:deploy:report -u PROD | perl -lne 'print $1 if /Job.ID.{3}(\w+)/' > Quick_Deploy_ID.txt
+          else 
+              echo " No SF changes found"
+          fi
+    artifacts:
+        paths:
+            - Quick_Deploy_ID.txt
+    allow_failure: false
+
+PROD_SF_Deploy:
+    stage: deploy
+    only:
+      refs:
+           - master
+    when: manual
+    script:
+        - echo ${SFDX_URL_PROD} > env.sfdx
+        - sfdx force:auth:sfdxurl:store -d -a PROD -f env.sfdx
+        - rm -rf env.sfdx
+        # Do the quick Deploy now
+        - job_id=$(cat Quick_Deploy_ID.txt)
+        - echo $job_id
+        - sfdx force:source:deploy -q $job_id  -w 100
+    needs:
+      - job: PROD_Validate
+        artifacts: true
+    allow_failure: false
+
+Vlocity_deploy:
+    stage: vlocity_deploy
+    only:
+      refs:
+           - master
+    when: manual
+    script: 
+        - echo "Deploying the Vlocity components"
+        - vlocity -sfdx.username SIT -job Deploy_Delta.yaml packDeploy --verbose true --simpleLogging true
+    needs:
+      - job:  PROD_SF_Deploy
+        artifacts: false
