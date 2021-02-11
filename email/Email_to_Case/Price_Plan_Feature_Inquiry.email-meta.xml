@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Price Plan/ Feature Inquiry</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},
+
+In reviewing your request the following information is required in order for us to complete the price plan.
+
+&lt;INSERT INFORMATION REQUIRED&gt;
+
+Once received your request will be completed as requested for your next applicable billing cycle ending  &lt;XXXX&gt;
+
+Thank you, I look forward to your reply.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Unlock Instructions - Apple</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Please see below instructions on how to unlock Apple iPhones, either for your records, or should you need to distribute to your end users:
+
+After receiving confirmation from the unlocking department that your Apple iPhone unlock has been processed, you will need to perform one of the following to complete the unlock process
+
+If you have an active non-Rogers SIM card:
+
+Turn off your iPhone.
+Remove your Rogers SIM card from the iPhone.
+
+Eject the SIM tray by inserting the SIM tool that came with your iPhone into the tiny hole next to the tray.
+
+Insert the non-Rogers SIM card back into the iPhone.
+Turn on the device, and complete the onscreen setup process.
+
+If you only have an active Rogers SIM card:
+
+Back up your iPhone through Apple iCloud or Apple iTunes.
+
+iCloud:
+
+Tap Settings &gt;iCloud &gt;Storage &amp; Backup &gt; Back Up Now.
+
+
+iTunes:
+
+Click File &gt; Devices &gt; Back up.
+
+Transfer your purchases to the computer.
+iTunes:
+
+Click File &gt; Transfer Purchases from your device name.
+
+Restore your iPhone through Apple iTunes or on your iPhone.
+
+iTunes:
+
+Click Summary &gt; Restore iPhone &gt; Restore .
+
+iPhone:
+
+Tap Settings &gt; General &gt; Reset &gt;Erase all Content and Settings.
+Connect the iPhone to the computer and launch iTunes
+
+Note: You should be prompted with a message stating your iPhone is now unlocked.
+Restore your contents from the back up file after the unlock process.
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Transfer of responsibility out</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>An authorization memo has been placed on the wireless number(s) below. The associated person(s) can now call our Customer Care department at 1-888-764-3771 to complete the transfer of responsibility.
+
+
+XXX-XXX-XXXX - (NAME)
+
+Interaction ID# (I--------)
+
+
+In order to be fully prepared and successfully complete the transfer, please note the information below which may be helpful:
+
+
+a.The notation on the account is valid for 90 days.
+
+b.As the user(s) above will no longer be eligible for corporate pricing, they will be required to change to an in-market consumer price plan upon completion of the transfer and as such, the line may be subject to credit recovery fees (ex. Device/Renewal/Activation credit recovery).
+
+c.If you require additional information on current in-market price plans, please feel free to contact us at &lt;&lt;1-888-764-3771 (Customer Care) OR for IDV 1-844-776-4377 RogersBusinessCare@rci.rogers.com.
+
+d.Your company will still be responsible for charges and usage up until user takes responsibility of the number.
+
+e.Porting out is not considered a Transfer of Responsibility and is subject to credit recovery fees of &lt;$XXX&gt;.
+
+f.The wireless number can only be transferred to personal account &amp; cannot replace an existing Rogers wireless number (Internal port).
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

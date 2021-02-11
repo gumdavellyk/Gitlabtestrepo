@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Logo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logo</shortDescription>
+        <value>&lt;img src=&quot;https://r4b--c.documentforce.com/servlet/servlet.ImageServer?id=0155o0000008uHU&amp;oid=00D4c0000008cMg&amp;lastMod=1573858266000&quot;&gt;</value>
+    </labels>
+</CustomLabels>

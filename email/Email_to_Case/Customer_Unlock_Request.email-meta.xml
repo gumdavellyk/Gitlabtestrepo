@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer Unlock Request</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>&lt;XXX-XXX-XXXX&gt; - &lt;USERNAME&gt;
+
+Hardware: &lt;MODEL&gt;
+
+IMEI: XXXXXXXXXXXXXX
+
+
+Before unlocking the device, please note the following:
+
+1.A charge of $50 plus taxes will apply.
+
+Unlocking a Rogers device will not void the warranty; however, If the original device was previously unlocked, the repaired or replaced device is eligible to be unlocked at any time and at no additional charge. This includes Device Protection, AppleCare, Advanced Exchange and all repair programs.
+Devices purchased from Rogers with a term (i.e. subsidized activation or HUP):
+
+As the devices are designed for Rogers, we are unable to guarantee the functionality of the device when they are on another carrier&apos;s network.
+
+Thank you, and should you have any additional inquiries please feel free to contact us.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

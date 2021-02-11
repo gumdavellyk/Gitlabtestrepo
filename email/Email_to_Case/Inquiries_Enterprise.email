@@ -1,0 +1,14 @@
+<p>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},</p>
+
+  <p>As a result of some changes to our Enterprise Support team, effective &lt;&lt;date&gt;&gt;, the following accounts will be supported by &lt;&lt;&nbsp; new team &gt;&gt;</p>
+<p>&nbsp;</p>
+<p>&lt;&lt;<em>Customer info</em>&gt;&gt;</p>
+<p>&nbsp;</p>
+<p>This is already communicated to the telecom administrators. .</p>
+<p>&nbsp;</p>
+<p>Please let us know if you have any questions. Have a nice day.</p>
+<p>Sincerely,</p>
+
+<p>&nbsp;</p>
+
+<p>{!Case.Thread_Id}</p>

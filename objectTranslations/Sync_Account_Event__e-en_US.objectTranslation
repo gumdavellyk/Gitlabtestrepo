@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sync Account Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sync Account Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountName --></label>
+        <name>AccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountNumber --></label>
+        <name>AccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountSource --></label>
+        <name>AccountSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnnualRevenue --></label>
+        <name>AnnualRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingCity --></label>
+        <name>BillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingCountryCode --></label>
+        <name>BillingCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingCountry --></label>
+        <name>BillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingGeocodeAccuracy --></label>
+        <name>BillingGeocodeAccuracy__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingLatitude --></label>
+        <name>BillingLatitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingLongitude --></label>
+        <name>BillingLongitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingPostalCode --></label>
+        <name>BillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingStateCode --></label>
+        <name>BillingStateCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingState --></label>
+        <name>BillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingStreet --></label>
+        <name>BillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Value --></label>
+        <name>Customer_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employees --></label>
+        <name>Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Form --></label>
+        <name>Legal_Form__c</name>
+    </fields>
+    <fields>
+        <label><!-- MSD Code --></label>
+        <name>MSD_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>OwnerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership --></label>
+        <name>Ownership__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentAccount --></label>
+        <name>ParentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- R1DUNS --></label>
+        <name>R1DUNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- R4BID --></label>
+        <name>R4BID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rating --></label>
+        <name>Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordTypeId --></label>
+        <name>RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Segment --></label>
+        <name>Sales_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingCity --></label>
+        <name>ShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingCountryCode --></label>
+        <name>ShippingCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingCountry --></label>
+        <name>ShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingGeocodeAccuracy --></label>
+        <name>ShippingGeocodeAccuracy__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingLatitude --></label>
+        <name>ShippingLatitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingLongitude --></label>
+        <name>ShippingLongitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingPostalCode --></label>
+        <name>ShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingStateCode --></label>
+        <name>ShippingStateCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingState --></label>
+        <name>ShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingStreet --></label>
+        <name>ShippingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Description --></label>
+        <name>SicDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sic Code --></label>
+        <name>Sic__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountSite --></label>
+        <name>Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- TickerSymbol --></label>
+        <name>TickerSymbol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>Website__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

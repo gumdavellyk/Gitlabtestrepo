@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Transfer of responsibility in</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},
+
+Before we transfer wireless number XXX-XXX-XXX (USERNAME) to account #XXXXXXXXX (COMPANY NAME), please note the following:
+
+
+a)The account holder will be required to contact our &lt;&lt;Customer Care Department at&gt;&gt; &lt;&lt;1-888-764-3771&gt;&gt; to give verbal authorization of the transfer; the representative will provide an Interaction ID# (I--------) for your/our reference.
+
+b)Your company&apos;s authorized Telecom Administrator will be able to request completion of the transfer by contacting the Enterprise Dedicated team
+
+c)Upon successful completion of the transfer, your company will assume financial responsibility of the wireless number(s) and the fulfillment of the terms and/or conditions.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

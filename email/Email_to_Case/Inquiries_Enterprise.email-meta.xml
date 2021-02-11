@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Account / Service / Proj Mgrs / BE Inquiries - Enterprise</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},
+
+As a result of some changes to our Enterprise Support team, effective &lt;&lt;date&gt;&gt;, the following accounts will be supported by &lt;&lt;  new team &gt;&gt;
+
+
+&lt;&lt;Customer info&gt;&gt;
+
+
+This is already communicated to the telecom administrators. .
+
+
+Please let us know if you have any questions. Have a nice day.
+
+Sincerely,
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

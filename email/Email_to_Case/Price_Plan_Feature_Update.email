@@ -1,0 +1,13 @@
+<p>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},</p>
+
+<p>We have completed the requested price plan change for &lt;XXX-XXX-XXXX&gt;, which will take effect as of the next bill cycle date, &lt;insert date&gt;.</p>
+<p>The new price plan includes the following:</p>
+<p>&nbsp;</p>
+<p>&lt;<em>LIST DETAILS OF </em><em>CHANGES</em>&gt;</p>
+<p>&nbsp;</p>
+<p>Please feel free to contact us again should you have any further inquiries.</p>
+
+
+<p>&nbsp;</p>
+
+<p>{!Case.Thread_Id}</p>

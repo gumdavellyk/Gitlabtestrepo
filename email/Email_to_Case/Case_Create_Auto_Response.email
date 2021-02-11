@@ -1,0 +1,16 @@
+<div style="font-size:16px; font-family: arial ; max-width:518px;margin:auto">
+<p>*** THIS IS AN AUTOMATED ACKNOWLEDGEMENT OF YOUR MESSAGE***</p>
+<p>*** PLEASE DO NOT REPLY TO THIS EMAIL*** <p>
+ 
+
+<p>Thank You for contacting Rogers Dedicated Support Team.</p>
+<p>We value your business and appreciate your time.</p>
+<p>Case no {!Case.CaseNumber} is created successfully and assigned to the respective queue.</p>
+<p>Your request will be processed within an 8 business hour period. For all urgent and or requests which require immediate attention please reach your Dedicated Business Group via phone.</p>
+<p>We will reach back to you soon with an update.</p>
+<p>&nbsp;</p>
+<p>Regards,</p>
+<p>Rogers Dedicated Support Team</p>
+
+<p>{!Case.Thread_Id}</p>
+</div>

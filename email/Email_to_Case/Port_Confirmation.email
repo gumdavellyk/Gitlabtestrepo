@@ -1,0 +1,20 @@
+<p>We have submitted the port request for the following number(s):</p>
+<p>&nbsp;</p>
+<p>Rogers Temporary Number: XXX-XXX-XXXX</p>
+<p>Port-in Number: XXX-XXX-XXXX</p>
+<p>&nbsp;</p>
+<p>Please see some useful information below for your records, should you need to distribute to end users:</p>
+<p>-The port-in number must remain active during the port-in process.</p>
+<p>-It is the responsibility of the client to be aware of any applicable cancellation fees associated their old service provider.</p>
+<p>-If your number is not ported in within 24 hours please contact us</p>
+<ul style="list-style-type: square;">
+<li>Wireless to Wireless: It usually takes about 2.5 hours to complete the port in, but it could take up to a week depending on the complexity of the transfer and your OSP.</li>
+<li>Landline to Wireless: It usually takes about 2 days to complete the port in request (not including weekends and statutory holidays), but it could take up to a week depending on the complexity of the transfer and your OSP.</li>
+</ul>
+<p>-Once complete, the user will receive notification via text message</p>
+<p>-Please note that a non-Rogers device must be unlocked to be compatible with our network</p>
+<p>Thank you, and should you have any additional inquiries please feel free to contact us.</p>
+
+<p>&nbsp;</p>
+
+<p>{!Case.Thread_Id}</p>

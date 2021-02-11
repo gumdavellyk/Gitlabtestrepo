@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>MYBSG2</name>
+    <queueMembers>
+        <users>
+            <user>jason.robinson@rci.rogers.com.r4b</user>
+            <user>pankaj.gupta1@rci.rogers.com.r4b</user>
+            <user>ramalakshmi.kumar@rci.rogers.com.r4b</user>
+            <user>sherry.sun@rci.rogers.com.r4b</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Kana_Email_Service</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

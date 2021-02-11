@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>MYBSG10</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>MYBSG10</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueRoutingConfig>Kana_Email_Service</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

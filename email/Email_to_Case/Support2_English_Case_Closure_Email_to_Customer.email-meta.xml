@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Support2 English Case Closure Email to Customer</name>
+    <style>none</style>
+    <subject>Your Case # {!Case.CaseNumber} has been closed</subject>
+    <textOnly>Dear Customer,
+
+Your Case # {!Case.CaseNumber} - &quot;{!Case.Subject}&quot; has been closed.
+
+Below are the comments provided for resolution.
+
+{!Case.Reason}
+
+Thank you!
+
+Rogers Support Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

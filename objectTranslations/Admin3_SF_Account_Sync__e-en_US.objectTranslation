@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Admin3 SF Account Sync</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Admin3 SF Account Sync</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountStatus --></label>
+        <name>AccountStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddress --></label>
+        <name>BillingAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomerNumber --></label>
+        <name>CustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- MALID --></label>
+        <name>MALID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalCode --></label>
+        <name>PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

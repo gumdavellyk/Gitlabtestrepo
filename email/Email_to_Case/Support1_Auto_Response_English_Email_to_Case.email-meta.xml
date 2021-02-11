@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Support1_Auto Response English Email to Case</name>
+    <style>none</style>
+    <subject>Your Case # {!Case.CaseNumber} has been opened</subject>
+    <textOnly>*** THIS IS AN AUTOMATED ACKNOWLEDGEMENT OF YOUR MESSAGE***
+
+*** PLEASE DO NOT REPLY TO THIS EMAIL***
+
+
+Thank You for contacting Rogers Dedicated Support Team.
+
+We value your business and appreciate your time.
+
+Case no {!Case.CaseNumber} is created successfully and assigned to the respective queue.
+
+Your request will be processed within an 8 business hour period. For all urgent and or requests which require immediate attention please reach your Dedicated Business Group via phone.
+
+We will reach back to you soon with an update.
+
+
+Regards,
+
+Rogers Dedicated Support Team
+
+{!User.Name}
+
+Account Consultant, Enterprise Customer Service Wireless – Dedicated
+
+Enterprise Service Assurance | Rogers For Business
+
+TEL: {!User.Phone}
+
+Case ID: {!Case.CaseNumber}
+
+
+Using Business Self Serve is NOW better!
+
+Payments made easy - add a credit card and save it for one time payments or for pre authorized payments
+New reports for improved bill &amp; device management, including hardware upgrade information
+
+Log into your Business Self-Serve account and check out these new features today!
+
+You may receive a Customer Survey requesting feedback on your experience from this interaction with us. We appreciate your feedback and pride ourselves on your willingness to recommend Rogers. Thank you in advance!
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

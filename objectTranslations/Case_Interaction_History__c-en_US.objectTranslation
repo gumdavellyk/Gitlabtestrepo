@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Interaction History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Interaction History</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Case Interaction History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Case Created</masterLabel>
+            <translation><!-- Case Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Email</masterLabel>
+            <translation><!-- Inbound Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Email</masterLabel>
+            <translation><!-- Outbound Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner Change</masterLabel>
+            <translation><!-- Owner Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status Change</masterLabel>
+            <translation><!-- Status Change --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- First response --></label>
+        <name>First_response__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Value --></label>
+        <name>New_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Value --></label>
+        <name>Old_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timestamp --></label>
+        <name>Timestamp__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

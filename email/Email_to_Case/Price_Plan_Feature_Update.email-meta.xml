@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Price Plan/Feature Update</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},
+
+We have completed the requested price plan change for &lt;XXX-XXX-XXXX&gt;, which will take effect as of the next bill cycle date, &lt;insert date&gt;.
+
+The new price plan includes the following:
+
+
+&lt;LIST DETAILS OF CHANGES&gt;
+
+
+Please feel free to contact us again should you have any further inquiries.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

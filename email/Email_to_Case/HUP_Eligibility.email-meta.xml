@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>HUP Eligibility</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},
+
+Should you wish to proceed with a pre-HUP fee, please note the following:
+
+Early upgrade fee: $XX
+
+Cost of device: $XX
+
+TOTAL COST: $XX
+
+The last upgrade was completed on &lt;&lt;DD MM YYYY&gt;&gt;.
+
+This line will no longer have an early upgrade fee on &lt;&lt;DD MM YYYY&gt;&gt;.
+
+OR
+
+The last upgrade was completed on &lt;&lt;DD MM YYYY&gt;&gt;, therefore the applicable charge will be the cost of the device chosen. If you wish to proceed with the order kindly let us know: Device model &amp; color preference (example: iPhone 8 64gb in space grey) as well as the shipping address. Kindly note that prices are subject to change.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

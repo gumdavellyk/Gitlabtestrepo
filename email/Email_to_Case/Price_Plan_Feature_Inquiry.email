@@ -1,0 +1,10 @@
+<p>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},</p>
+
+<p>In reviewing your request the following information is required in order for us to complete the price plan.</p>
+<p>&lt;<em>INSERT INFORMATION REQUIRED</em>&gt;</p>
+<p>Once received your request will be completed as requested for your next applicable billing cycle ending&nbsp; &lt;XXXX&gt;</p>
+<p>Thank you, I look forward to your reply.</p>
+
+<p>&nbsp;</p>
+
+<p>{!Case.Thread_Id}</p>

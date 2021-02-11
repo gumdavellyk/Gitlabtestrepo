@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Travel Packs bullet points</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Please see below a summary of travel pack information either for your records, or should you need to distribute this information to your end users.
+
+The travel pack will start on DD/MM/YYYY and expire on DD/MM/YYYY.
+If you exceed the usage amount included in your travel package, you can continue talking or texting at the specified overage rate until the end of the 30 day period. After the travel pack has expired, standard pay-per-use rates will apply.
+Minutes &amp; talk overage rates are applicable for all call types including incoming calls, local calls, call back to Canada and international calls.
+Unlimited text messaging does not include MMS (Picture Messaging)
+Travel packs do not include calls made to 1-800, 1-888, 1-877 and 1-866 numbers. Calling these numbers will incur airtime and long distance charges applied by the local carrier in addition to the applicable pay-per-use roaming charges.
+Text messages included with travel packs can be sent to any mobile number world-wide. Incoming texts are unlimited as part of the package.
+Should you experience difficulties while roaming, you can contact us free of charge by dialing +1 514-734-7699 using a Rogers Wireless Number.
+In Market - Travel packs do not work on cruise ships, airplanes, French Polynesia, Lebanon, Cuba, and Palau. These destinations will be pay-per-use for voice, text and data. AND/ OR - 10plus- Travel packs do not work on cruise ships, airplanes, French Polynesia, Lebanon and Palau. These destinations will be pay-per-use for voice, text and data.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

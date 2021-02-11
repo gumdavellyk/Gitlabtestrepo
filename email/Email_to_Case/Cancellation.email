@@ -1,0 +1,13 @@
+<p>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},</p>
+
+<p>The cancellation will be finalized on the next bill cycle date, &lt;<em>DATE</em>&gt;. The upcoming invoice will reflect any applicable early cancellation fees, in addition to usage overages and/or pay-per-use services.</p>
+<p>&nbsp;</p>
+<p>XXX-XXX-XXXX - $XXX Device Saving Recovery Fee</p>
+<p>Commitment end date &lt;MMM.DD.YY&gt;</p>
+<p>&lt;if applicable&gt; You have received conversion/renewals credits on &lt;(insert CTN)&gt; that you have requested to cancel, a pro-rated renewal recovery fee of these credits will apply to your next invoice.&nbsp; Your total recovery fee will be &lt;XXXX&gt;</p>
+<p>Kindly note there are alternatives to cancelling, such as&nbsp; completing a Transfer of Responsibility, wherein the user assumes financial responsibility.</p>
+<p>Thank you, should you require service in the future please feel free to contact us.</p>
+
+<p>&nbsp;</p>
+
+<p>{!Case.Thread_Id}</p>

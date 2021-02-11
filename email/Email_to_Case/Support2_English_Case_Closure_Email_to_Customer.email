@@ -1,0 +1,11 @@
+<p>Dear Customer,</p>
+
+<p>Your Case # {!Case.CaseNumber} - &quot;{!Case.Subject}&quot; has been closed.</p>
+
+<p>Below are the comments provided for resolution.</p>
+
+<p>{!Case.Reason}</p>
+
+<p>Thank you!</p>
+
+<p>Rogers Support Team</p>

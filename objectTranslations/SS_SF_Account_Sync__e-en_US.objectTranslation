@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SS SF Account Sync</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SS SF Account Sync</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountID --></label>
+        <name>AccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- AptDesignator --></label>
+        <name>AptDesignator__c</name>
+    </fields>
+    <fields>
+        <label><!-- AptNumber --></label>
+        <name>AptNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLConsInd --></label>
+        <name>BLConsInd__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillStatus --></label>
+        <name>BillStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillToAddressLine1 --></label>
+        <name>BillToAddressLine1__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillToAddressLine2 --></label>
+        <name>BillToAddressLine2__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillToAddressLine3 --></label>
+        <name>BillToAddressLine3__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillToAddressLine4 --></label>
+        <name>BillToAddressLine4__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillToAddressPostalCode --></label>
+        <name>BillToAddressPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillToInd --></label>
+        <name>BillToInd__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingLanguage --></label>
+        <name>BillingLanguage__c</name>
+    </fields>
+    <fields>
+        <label><!-- FirstName --></label>
+        <name>FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastBusinessName --></label>
+        <name>LastBusinessName__c</name>
+    </fields>
+    <fields>
+        <label><!-- LocationLat --></label>
+        <name>LocationLat__c</name>
+    </fields>
+    <fields>
+        <label><!-- LocationLong --></label>
+        <name>LocationLong__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressCompassDirection --></label>
+        <name>ServiceAddressCompassDirection__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressCountry --></label>
+        <name>ServiceAddressCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressMuncipality --></label>
+        <name>ServiceAddressMuncipality__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressPostalCode --></label>
+        <name>ServiceAddressPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressProvince --></label>
+        <name>ServiceAddressProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressStreetName --></label>
+        <name>ServiceAddressStreetName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressStreetNumber --></label>
+        <name>ServiceAddressStreetNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressStreetType --></label>
+        <name>ServiceAddressStreetType__c</name>
+    </fields>
+    <fields>
+        <label><!-- V21BAN --></label>
+        <name>V21BAN__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

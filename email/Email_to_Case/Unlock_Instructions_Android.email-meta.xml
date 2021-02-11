@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Unlock Instructions - Android</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject} -- Case # {!Case.CaseNumber}</subject>
+    <textOnly>Please see below instructions on how to unlock your Android phone, either for your records, or should you need to distribute to your end users
+
+Note: Unlocking your smartphone will NOT void your manufacturer warranty if done through Rogers. This unlock process requires a non-Rogers SIM card.
+
+1.Turn off your smartphone.
+
+2.Remove your Rogers SIM card from the smartphone.
+
+3.Insert the non-Rogers SIM card back into the smartphone.
+
+4.Turn on the device, and enter when prompted.
+
+5.The device will be unlocked.
+
+Note: Some devices may require a device reboot to complete the process.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

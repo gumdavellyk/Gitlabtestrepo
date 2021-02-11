@@ -1,0 +1,14 @@
+<p>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},</p>
+
+<p>Should you wish to proceed with a pre-HUP fee, please note the following:</p>
+<p>&nbsp; Early upgrade fee: $XX</p>
+<p>&nbsp; Cost of device: $XX</p>
+<p>&nbsp; TOTAL COST: $XX</p>
+<p>The last upgrade was completed on &lt;&lt;DD MM YYYY&gt;&gt;.</p>
+<p>This line will no longer have an early upgrade fee on &lt;&lt;DD MM YYYY&gt;&gt;.</p>
+<p>OR</p>
+<p>The last upgrade was completed on &lt;&lt;DD MM YYYY&gt;&gt;, therefore the applicable charge will be the cost of the device chosen. If you wish to proceed with the order kindly let us know: Device model &amp; color preference (example: iPhone 8 64gb in space grey) as well as the shipping address. Kindly note that prices are subject to change.</p>
+
+<p>&nbsp;</p>
+
+<p>{!Case.Thread_Id}</p>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Iseries SF Account Sync</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Iseries SF Account Sync</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountName --></label>
+        <name>AccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountNumber --></label>
+        <name>AccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountStatus --></label>
+        <name>AccountStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountType --></label>
+        <name>AccountType__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddressCity --></label>
+        <name>BillingAddressCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddressCountry --></label>
+        <name>BillingAddressCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddressLine1 --></label>
+        <name>BillingAddressLine1__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddressLine2 --></label>
+        <name>BillingAddressLine2__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddressPostalCode --></label>
+        <name>BillingAddressPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddressProvince --></label>
+        <name>BillingAddressProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- MALID --></label>
+        <name>MALID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentAccountNumber --></label>
+        <name>ParentAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceAddressDSTFlag --></label>
+        <name>ServiceAddressDSTFlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- SiteAddress1 --></label>
+        <name>SiteAddress1__c</name>
+    </fields>
+    <fields>
+        <label><!-- SiteAddress2 --></label>
+        <name>SiteAddress2__c</name>
+    </fields>
+    <fields>
+        <label><!-- SiteCityName --></label>
+        <name>SiteCityName__c</name>
+    </fields>
+    <fields>
+        <label><!-- SiteCountryCode --></label>
+        <name>SiteCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- SitePostalCode --></label>
+        <name>SitePostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- SiteProvinceCode --></label>
+        <name>SiteProvinceCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeStamp --></label>
+        <name>TimeStamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeZone --></label>
+        <name>TimeZone__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>vlocity_cmt__Billing</fullName>
+        <description>There is a complaint about billing. This has to do with money.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>vlocity_cmt__Service Problem</fullName>
+        <description>There is something wrong with the service. This does not include Billing issues.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>vlocity_cmt__Vlocity Support Process</fullName>
+        <description>Vlocity Support Process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Omni_Channel_Work_Item</fullName>
+        <fields>CaseNumber</fields>
+        <fields>ContactId</fields>
+        <fields>Subject</fields>
+        <fields>AccountId</fields>
+        <fields>Status</fields>
+        <label>Omni Channel Work Item</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>ReadWriteTransfer</externalSharingModel>
+    <fieldSets>
+        <fullName>vlocity_cmt__StoryFieldSet</fullName>
+        <description>Story board</description>
+        <displayedFields>
+            <field>Subject</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Origin</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>StoryFieldSet</label>
+    </fieldSets>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BusinessHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ClosedDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactFax</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactMobile</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsClosedOnCreate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsEscalated</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Language</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Origin</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account / Service / Proj Mgrs / BE Inquiries</fullName>
+                    <default>false</default>
+                    <label>Account / Service / Proj Mgrs / BE Inquiries</label>
+                </value>
+                <value>
+                    <fullName>Add WiFi Calling</fullName>
+                    <default>false</default>
+                    <label>Add WiFi Calling</label>
+                </value>
+                <value>
+                    <fullName>Add/Modify Travel / Roaming Pack</fullName>
+                    <default>false</default>
+                    <label>Add/Modify Travel / Roaming Pack</label>
+                </value>
+                <value>
+                    <fullName>BAU Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>BAU Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>BC Government HUP/Activations BC ONLY</fullName>
+                    <default>false</default>
+                    <label>BC Government HUP/Activations BC ONLY</label>
+                </value>
+                <value>
+                    <fullName>Billing Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Billing Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Block Outgoing Long Distance</fullName>
+                    <default>false</default>
+                    <label>Block Outgoing Long Distance</label>
+                </value>
+                <value>
+                    <fullName>Block Roaming Outside Rogers</fullName>
+                    <default>false</default>
+                    <label>Block Roaming Outside Rogers</label>
+                </value>
+                <value>
+                    <fullName>Business Self Serve Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Business Self Serve Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Cancellation Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Cancellation Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Change Subscriber Name</fullName>
+                    <default>false</default>
+                    <label>Change Subscriber Name</label>
+                </value>
+                <value>
+                    <fullName>Contract Inquiry</fullName>
+                    <default>false</default>
+                    <label>Contract Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Coverage Inquiries</fullName>
+                    <default>false</default>
+                    <label>Coverage Inquiries</label>
+                </value>
+                <value>
+                    <fullName>Dealer Inquiries</fullName>
+                    <default>false</default>
+                    <label>Dealer Inquiries</label>
+                </value>
+                <value>
+                    <fullName>Dept Code Change</fullName>
+                    <default>false</default>
+                    <label>Dept Code Change</label>
+                </value>
+                <value>
+                    <fullName>General Inquiries</fullName>
+                    <default>false</default>
+                    <label>General Inquiries</label>
+                </value>
+                <value>
+                    <fullName>Hardware Inquiries</fullName>
+                    <default>false</default>
+                    <label>Hardware Inquiries</label>
+                </value>
+                <value>
+                    <fullName>HUP Eligibility Check</fullName>
+                    <default>false</default>
+                    <label>HUP Eligibility Check</label>
+                </value>
+                <value>
+                    <fullName>IMEI Inquiries or Update</fullName>
+                    <default>false</default>
+                    <label>IMEI Inquiries or Update</label>
+                </value>
+                <value>
+                    <fullName>M2M Billing Questions / Concerns</fullName>
+                    <default>false</default>
+                    <label>M2M Billing Questions / Concerns</label>
+                </value>
+                <value>
+                    <fullName>M2M General Account Maintenance - Add plans/blocks</fullName>
+                    <default>false</default>
+                    <label>M2M General Account Maintenance - Add plans/blocks</label>
+                </value>
+                <value>
+                    <fullName>M2M Reports - Jasper/V21/Customer/Internal</fullName>
+                    <default>false</default>
+                    <label>M2M Reports - Jasper/V21/Customer/Internal</label>
+                </value>
+                <value>
+                    <fullName>M2M Sim/Hardware Orders</fullName>
+                    <default>false</default>
+                    <label>M2M Sim/Hardware Orders</label>
+                </value>
+                <value>
+                    <fullName>Pager Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Pager Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Payment MOP Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Payment MOP Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Payment Request</fullName>
+                    <default>false</default>
+                    <label>Payment Request</label>
+                </value>
+                <value>
+                    <fullName>Phone Contact Email Response</fullName>
+                    <default>false</default>
+                    <label>Phone Contact Email Response</label>
+                </value>
+                <value>
+                    <fullName>Port Request ESD Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Port Request ESD Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Price Plan/Feature Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Price Plan/Feature Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Process Activations in V21</fullName>
+                    <default>false</default>
+                    <label>Process Activations in V21</label>
+                </value>
+                <value>
+                    <fullName>Process Activations/HUPs in RDL</fullName>
+                    <default>false</default>
+                    <label>Process Activations/HUPs in RDL</label>
+                </value>
+                <value>
+                    <fullName>Process Unlock/OOW/Swap</fullName>
+                    <default>false</default>
+                    <label>Process Unlock/OOW/Swap</label>
+                </value>
+                <value>
+                    <fullName>Product/Soluitons Inquiries</fullName>
+                    <default>false</default>
+                    <label>Product/Soluitons Inquiries</label>
+                </value>
+                <value>
+                    <fullName>Report Inquiry/Request</fullName>
+                    <default>false</default>
+                    <label>Report Inquiry/Request</label>
+                </value>
+                <value>
+                    <fullName>Roaming/Travel Pk Inquiry</fullName>
+                    <default>false</default>
+                    <label>Roaming/Travel Pk Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Sim Card Change ESD</fullName>
+                    <default>false</default>
+                    <label>Sim Card Change ESD</label>
+                </value>
+                <value>
+                    <fullName>Sim Card Inquiry</fullName>
+                    <default>false</default>
+                    <label>Sim Card Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Suspend Line</fullName>
+                    <default>false</default>
+                    <label>Suspend Line</label>
+                </value>
+                <value>
+                    <fullName>Technical/Product Support</fullName>
+                    <default>false</default>
+                    <label>Technical/Product Support</label>
+                </value>
+                <value>
+                    <fullName>Telephone Number Change ESD Update</fullName>
+                    <default>false</default>
+                    <label>Telephone Number Change ESD Update</label>
+                </value>
+                <value>
+                    <fullName>Telephone Number Transfer Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Telephone Number Transfer Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Transfer of Responsibility ESD Inquiry/Update</fullName>
+                    <default>false</default>
+                    <label>Transfer of Responsibility ESD Inquiry/Update</label>
+                </value>
+                <value>
+                    <fullName>Unsuspend Line</fullName>
+                    <default>false</default>
+                    <label>Unsuspend Line</label>
+                </value>
+                <value>
+                    <fullName>Voicemail Password Reset</fullName>
+                    <default>false</default>
+                    <label>Voicemail Password Reset</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Account / Service / Proj Mgrs / BE Inquiries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Add WiFi Calling</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Add/Modify Travel / Roaming Pack</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>BAU Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>BC Government HUP/Activations BC ONLY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Billing Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Block Outgoing Long Distance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Block Roaming Outside Rogers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Business Self Serve Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Cancellation Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Change Subscriber Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Contract Inquiry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Coverage Inquiries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Dealer Inquiries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Dept Code Change</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>General Inquiries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Hardware Inquiries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>HUP Eligibility Check</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>IMEI Inquiries or Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>M2M Billing Questions / Concerns</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>M2M General Account Maintenance - Add plans/blocks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>M2M Reports - Jasper/V21/Customer/Internal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>M2M Sim/Hardware Orders</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Pager Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Payment MOP Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Payment Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Phone Contact Email Response</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Port Request ESD Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Price Plan/Feature Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Process Activations in V21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Process Activations/HUPs in RDL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Process Unlock/OOW/Swap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Product/Soluitons Inquiries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Report Inquiry/Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Roaming/Travel Pk Inquiry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Sim Card Change ESD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Sim Card Inquiry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Suspend Line</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Technical/Product Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Telephone Number Change ESD Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Telephone Number Transfer Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Transfer of Responsibility ESD Inquiry/Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Unsuspend Line</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Request</controllingFieldValue>
+                <valueName>Voicemail Password Reset</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedCompany</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedName</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__DisputeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DisputeId</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__Dispute_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dispute ID</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__FollowUpTo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If this activity is a follow up to a previous activity.</description>
+        <externalId>false</externalId>
+        <label>Follow Up To</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__IndicatorImageName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Formula: Calculated &quot;indicator&quot; image name based on the priority and status of this Case. Used to display an indicator image on this case when shown in the user interface.</description>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Priority)==&apos;High&apos; &amp;&amp; TEXT(Status)!= &apos;Closed&apos;, &apos;highpriorityopen&apos;, (IF(TEXT(Priority)==&apos;High&apos; &amp;&amp; TEXT(Status)==&apos;Closed&apos;, &apos;highpriorityclose&apos;, (IF(TEXT(Priority)==&apos;Medium&apos; &amp;&amp; TEXT(Status)!= &apos;Closed&apos;, &apos;mediumpriorityopen&apos;, (IF(TEXT(Priority)==&apos;Medium&apos; &amp;&amp; TEXT(Status) == &apos;Closed&apos;, &apos;mediumpriorityclose&apos;, (IF(TEXT(Priority)==&apos;Low&apos; &amp;&amp; TEXT(Status)!=&apos;Closed&apos;, &apos;lowpriorityopen&apos;, IF(TEXT(Priority)==&apos;Low&apos; &amp;&amp; TEXT(Status) ==&apos;Closed&apos;, &apos;lowpriorityclose&apos;,&apos;&apos; ))) )))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Indicator Image Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__PremisesId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Premises</label>
+        <referenceTo>vlocity_cmt__Premises__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__PriorityImageName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Formula: Calculated &quot;priority&quot; image name based on the priority of this Case. Used to display a priority image on this case when shown in the user interface.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Priority)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Priority Image Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ServiceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the service Asset which is the subject of this Case.</description>
+        <externalId>false</externalId>
+        <label>Service ID</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <filterItems>
+                <field>$Source.AccountId</field>
+                <operation>equals</operation>
+                <valueField>Asset.AccountId</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.AccountId</field>
+                <operation>equals</operation>
+                <valueField>Asset.vlocity_cmt__BillingAccountId__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.AccountId</field>
+                <operation>equals</operation>
+                <valueField>Asset.vlocity_cmt__ServiceAccountId__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__StatementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Statement</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.AccountId</field>
+                <operation>equals</operation>
+                <valueField>vlocity_cmt__Statement__c.vlocity_cmt__AccountId__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>vlocity_cmt__Statement__c</referenceTo>
+        <relationshipLabel>Disputes</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__StatementLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Statement Line Item</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <filterItems>
+                <field>$Source.AccountId</field>
+                <operation>equals</operation>
+                <valueField>vlocity_cmt__StatementLineItem__c.vlocity_cmt__StatementId__r.vlocity_cmt__AccountId__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.vlocity_cmt__StatementId__c</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.vlocity_cmt__StatementId__c</field>
+                <operation>equals</operation>
+                <valueField>vlocity_cmt__StatementLineItem__c.vlocity_cmt__StatementId__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.vlocity_cmt__StatementId__c</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>vlocity_cmt__StatementLineItem__c</referenceTo>
+        <relationshipLabel>Disputes</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__StatusImageName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Formula: Calculated &quot;status&quot; image name based on the status of this Case. Used to display a status image on this case when shown in the user interface.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Status)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Image Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__SubscriptionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Subscription which is the subject of this Case.</description>
+        <externalId>false</externalId>
+        <label>Subscription</label>
+        <referenceTo>vlocity_cmt__Subscription__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>AB1_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>AB1</label>
+        <queue>AB1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AB2_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>AB2</label>
+        <queue>AB2</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AlbertaBSG1_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>AlbertaBSG1</label>
+        <queue>AlbertaBSG1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AlbertaBSG2_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>AlbertaBSG2</label>
+        <queue>AlbertaBSG2</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AllOpenCases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>Default_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Default Queue</label>
+        <queue>Default_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MYBSG10_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>MYBSG10</label>
+        <queue>MYBSG10</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MYBSG11_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>MYBSG11</label>
+        <queue>MYBSG11</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MYBSG2_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>MYBSG2</label>
+        <queue>MYBSG2</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MYBSG_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>MYBSG</label>
+        <queue>MYBSG</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MyCases</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpenCases</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>Oracle_Requests_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Oracle Requests</label>
+        <queue>Oracle_Requests</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Overflow_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Overflow Queue</label>
+        <queue>Overflow_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>RBSG12_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>RBSG12</label>
+        <queue>RBSG12</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>RBSG17_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>RBSG17</label>
+        <queue>RBSG17</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>RBSG5_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>RBSG5</label>
+        <queue>RBSG5</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>vlocity_cmt__Billing</fullName>
+        <active>true</active>
+        <businessProcess>vlocity_cmt__Billing</businessProcess>
+        <description>Billing complaint.</description>
+        <label>Billing</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Type__c</picklist>
+            <values>
+                <fullName>Account %2F Service %2F Proj Mgrs %2F BE Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Add WiFi Calling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Add%2FModify Travel %2F Roaming Pack</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BAU Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BC Government HUP%2FActivations BC ONLY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billing Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Block Outgoing Long Distance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Block Roaming Outside Rogers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Self Serve Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Subscriber Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dept Code Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HUP Eligibility Check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMEI Inquiries or Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Billing Questions %2F Concerns</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M General Account Maintenance - Add plans%2Fblocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Reports - Jasper%2FV21%2FCustomer%2FInternal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Sim%2FHardware Orders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pager Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment MOP Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Contact Email Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Port Request ESD Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Plan%2FFeature Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Activations in V21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Activations%2FHUPs in RDL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Unlock%2FOOW%2FSwap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%2FSoluitons Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Inquiry%2FRequest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roaming%2FTravel Pk Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sim Card Change ESD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sim Card Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suspend Line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FProduct Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone Number Change ESD Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone Number Transfer Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer of Responsibility ESD Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unsuspend Line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voicemail Password Reset</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>vlocity_cmt__MobilePhoneCase</fullName>
+        <active>true</active>
+        <businessProcess>vlocity_cmt__Vlocity Support Process</businessProcess>
+        <description>Mobile Phone Case</description>
+        <label>MobilePhoneCase</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Type__c</picklist>
+            <values>
+                <fullName>Account %2F Service %2F Proj Mgrs %2F BE Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Add WiFi Calling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Add%2FModify Travel %2F Roaming Pack</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BAU Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BC Government HUP%2FActivations BC ONLY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billing Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Block Outgoing Long Distance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Block Roaming Outside Rogers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Self Serve Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Subscriber Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dept Code Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HUP Eligibility Check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMEI Inquiries or Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Billing Questions %2F Concerns</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M General Account Maintenance - Add plans%2Fblocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Reports - Jasper%2FV21%2FCustomer%2FInternal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Sim%2FHardware Orders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pager Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment MOP Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Contact Email Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Port Request ESD Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Plan%2FFeature Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Activations in V21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Activations%2FHUPs in RDL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Unlock%2FOOW%2FSwap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%2FSoluitons Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Inquiry%2FRequest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roaming%2FTravel Pk Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sim Card Change ESD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sim Card Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suspend Line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FProduct Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone Number Change ESD Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone Number Transfer Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer of Responsibility ESD Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unsuspend Line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voicemail Password Reset</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>vlocity_cmt__Service</fullName>
+        <active>true</active>
+        <businessProcess>vlocity_cmt__Service Problem</businessProcess>
+        <description>There is something wrong with the service provided or a product associated with that service.</description>
+        <label>Service</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Type__c</picklist>
+            <values>
+                <fullName>Account %2F Service %2F Proj Mgrs %2F BE Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Add WiFi Calling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Add%2FModify Travel %2F Roaming Pack</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BAU Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BC Government HUP%2FActivations BC ONLY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billing Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Block Outgoing Long Distance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Block Roaming Outside Rogers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Self Serve Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Subscriber Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dept Code Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HUP Eligibility Check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMEI Inquiries or Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Billing Questions %2F Concerns</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M General Account Maintenance - Add plans%2Fblocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Reports - Jasper%2FV21%2FCustomer%2FInternal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M2M Sim%2FHardware Orders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pager Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment MOP Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Contact Email Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Port Request ESD Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Plan%2FFeature Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Activations in V21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Activations%2FHUPs in RDL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Unlock%2FOOW%2FSwap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%2FSoluitons Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Inquiry%2FRequest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roaming%2FTravel Pk Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sim Card Change ESD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sim Card Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suspend Line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FProduct Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone Number Change ESD Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone Number Transfer Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer of Responsibility ESD Inquiry%2FUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unsuspend Line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voicemail Password Reset</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
+</CustomObject>

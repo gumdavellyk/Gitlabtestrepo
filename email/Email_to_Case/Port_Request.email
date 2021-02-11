@@ -1,0 +1,9 @@
+<p>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},</p>
+
+  <p>In reviewing your request the&nbsp; following information is required in order for us to complete port(s).</p>
+<p>&lt;<em>Example: Account #, Temporary #, Authentication PIN</em>&gt;</p>
+<p>Once received your request will be completed.</p>
+<p>Thank you, I look forward to your reply.</p>
+
+<p>&nbsp;</p>
+<p>{!Case.Thread_Id}</p>

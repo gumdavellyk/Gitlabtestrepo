@@ -1,0 +1,9 @@
+<p>Hello {!Contact.Salutation} {!Contact.FirstName}  {!Contact.LastName},</p>
+
+<p>Before we transfer wireless number XXX-XXX-XXX (USERNAME) to account #XXXXXXXXX (COMPANY NAME), please note the following:</p>
+<p>&nbsp;</p>
+<p>a)The account holder will be required to contact our &lt;&lt;Customer Care Department at&gt;&gt; &lt;&lt;1-888-764-3771&gt;&gt; to give verbal authorization of the transfer; the representative will provide an Interaction ID# (I--------) for your/our reference.</p>
+<p>b)Your company's authorized Telecom Administrator will be able to request completion of the transfer by contacting the Enterprise Dedicated team</p>
+<p>c)Upon successful completion of the transfer, your company will assume financial responsibility of the wireless number(s) and the fulfillment of the terms and/or conditions.</p>
+<p>&nbsp;</p>
+<p>{!Case.Thread_Id}</p>
